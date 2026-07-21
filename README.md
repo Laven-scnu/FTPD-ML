@@ -12,7 +12,6 @@ code/
 |   |-- extract_figures.py
 |   |-- clean_captions.py
 |   |-- split_captions.py
-|   `-- flatten_figure_folders.py
 |-- ImageMatch/
 |   `-- train_clip.py
 `-- ImageCaption/
@@ -30,7 +29,6 @@ code/
 - `FigureProcessing/extract_figures.py`: extract figure images, captions, and figure mentions from markdown files.
 - `FigureProcessing/clean_captions.py`: clean noisy `caption.txt` files with a reusable regex-based pipeline.
 - `FigureProcessing/split_captions.py`: generate `single_caption.txt`, `multiple_caption.txt`, and `first_caption.txt`.
-- `FigureProcessing/flatten_figure_folders.py`: flatten `paper/figure` folders into a single figure-level dataset directory.
 - `ImageMatch/train_clip.py`: fine-tune CLIP on image-caption pairs.
 - `ImageCaption/deepseek/`: DeepSeek-VL LoRA fine-tuning and inference scripts.
 - `ImageCaption/InternVL/`: InternVL LoRA fine-tuning and inference scripts.
