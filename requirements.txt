@@ -1,0 +1,16 @@
+pandas
+pillow
+tqdm
+loguru
+requests
+torch
+torchvision
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+# Optional model-experiment dependencies:
+# modelscope
+# peft
+# ms-swift
+# deepseek-vl
