@@ -7,9 +7,6 @@ Public code for figure-text extraction, article metadata processing, image-text 
 ```text
 FTPD-CL-main/
 |-- ArticleProcess/
-|   |-- common.py
-|   |-- query_crossref.py
-|   `-- query_unpaywall.py
 |-- FigureProcessing/
 |-- ImageMatch/
 |-- ImageCaption/
